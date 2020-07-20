@@ -173,3 +173,6 @@ persist.sys.wfd.virtual=0
 # Wi-Fi
 persist.sys.wifi_log_enable=false
 ro.wifi.power.reduction=1
+
+# Cutout (POSP)
+ro.potato.has_cutout=true
