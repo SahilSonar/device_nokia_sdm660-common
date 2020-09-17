@@ -342,6 +342,10 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     $(COMMON_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 29
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
+
 # Soong namespaces
 PRODUCT_BOARD_PLATFORM := sdm660
 PRODUCT_USES_QCOM_HARDWARE := true
