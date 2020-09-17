@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     libstdc++.vendor \
     libxml2 \
-    Snap
+    Camera2
 
 # Display
 PRODUCT_PACKAGES += \
