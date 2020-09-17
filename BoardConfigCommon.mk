@@ -161,7 +161,7 @@ BOARD_USES_QC_TIME_SERVICES := true
 PRIVATE_EXCLUDE_BUILD_TEST := true
 
 # Sepolicy
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+#include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 
 # Vendor Security Patch Level
